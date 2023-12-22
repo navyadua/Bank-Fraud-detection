@@ -1,8 +1,4 @@
-Sure, creating a README file for a fraud detection project repository involves providing essential information and guidelines for users. Here's a template you can use:
-
----
-
-# Fraud Detection Project Repository
+# Fraud Detection
 
 ## Description
 
