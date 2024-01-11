@@ -1,21 +1,13 @@
 <p align="center"><img src="https://socialify.git.ci/navyadua/Bank-Fraud-Detection/image?font=Inter&name=1&theme=Light" alt="project-image"></p>
 
-# Fraud Detection
+# Bank Fraud Detection
 
-## Description
+This project focuses on building a robust machine learning model for detecting potentially fraudulent transactions using advanced techniques in machine learning and predictive analytics. The dataset encompasses various transaction details such as account age, payment method, transaction time, and category. The objective is to construct a classification model capable of accurately categorizing transactions as either legitimate or potentially fraudulent.
 
-This repository contains the code and resources for a machine learning project focused on detecting fraudulent transactions using advanced techniques.
+## Problem Statement
+Develop a machine learning model capable of detecting potentially fraudulent transactions based on the provided dataset's features. The classification model aims to distinguish between legitimate and suspicious transactions.
 
-## Project Overview
-
-The aim of this project was to build a classification model to distinguish potentially fraudulent transactions from legitimate ones based on various transaction features.
-
-### Problem Statement
-
-Develop a machine learning model that accurately classifies transactions as either legitimate or potentially fraudulent using provided transaction data.
-
-### Data Details
-
+## Data Description
 The dataset includes the following features:
 
 - `accountAgeDays`: Number of days the account has been active.
@@ -27,11 +19,17 @@ The dataset includes the following features:
 - `Category`: Category of the transaction (e.g., electronics, shopping, food).
 - `Label` (Target column): Binary label (0 for legitimate, 1 for potentially fraudulent).
 
-### Model Used
+## Process
 
-K-Nearest Neighbors (KNN) Classification Algorithm
+- **Data Exploration**: Initial examination of the dataset to understand its structure, features, and statistical properties.
+- **Data Cleaning**: Handling missing values and ensuring data quality.
+- **Label Encoding**: Converting categorical variables into numerical format using label encoding.
+- **Feature Engineering**
+- **Data Visualization**
+- **Model Selection** : Random Forest Classifier is Chosen for its ability to handle complex relationships in data, robustness, and effectiveness in classification tasks.
+- **Model Training** : GridSearchCV is Employed for hyperparameter tuning to find the best combination of parameters for the Random Forest Classifier.
+- **Model Evaluation** : Accuracy, Precision, Recall, F1 Score are used to assess the model's performance on the test set and Confusion Matrix is used for providing a detailed breakdown of the model's predictions.
 
+##
 
-## Acknowledgments
-
-Special thanks to Learnbay for providing the project guidelines and resources.
+Thank You for checking out our project!😉 We believe in creating a better world through technology⚙️, and we hope this project contributes to that goal.👍🏻
