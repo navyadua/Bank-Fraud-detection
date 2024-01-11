@@ -1,3 +1,5 @@
+<p align="center"><img src="https://socialify.git.ci/navyadua/fraud_detection/image?font=Inter&name=1&theme=Light" alt="project-image"></p>
+
 # Fraud Detection
 
 ## Description
